@@ -16,7 +16,7 @@ def home(request):
         question = request.POST.get("question")
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="Gemini 2.5 Flash-ite",
             contents=question
         )
 
