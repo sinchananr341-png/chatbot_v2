@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-client = genai.Client(api_key=os.getenv("AIzaSyAR9wLsB_KFR96MidEVjSx-YAYm35ZVeSg"))
+client = genai.Client(api_key=os.getenv("AIzaSyCm3m1CWZs_BL36sKJ-7JzCH0oLaWNmnpI"))
 
 
 def home(request):
